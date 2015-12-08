@@ -1,5 +1,5 @@
 $bgcolor: #c0c0c0;
-$header: hotpink;
+$header: orange;
 
 body{
 	background-color: $bgcolor;
@@ -25,6 +25,10 @@ body{
 .parallax-window {
 	min-height: 50vh;
 	background:transparent;
+}
+
+.contanier {
+
 }
 /* sass funciona de tal forma que creamos las propiedades primero y luego las anyadimos
 a las clases que necesitemos, de este modo acortamos texto supongo*/
