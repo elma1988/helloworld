@@ -1,0 +1,22 @@
+body {
+  background-color: #c0c0c0; }
+
+.header {
+  background-color: hotpink;
+  color: white; }
+  .header .container {
+    padding: 20px;
+    background-color: #ff369b; }
+    .header .container h1 {
+      margin: 0; }
+      .header .container h1 small {
+        color: black; }
+
+.parallax-window {
+  min-height: 50vh;
+  background: transparent; }
+
+/* sass funciona de tal forma que creamos las propiedades primero y luego las anyadimos
+a las clases que necesitemos, de este modo acortamos texto supongo*/
+/* estamos incluyendo clases dentro de clases por lo que son hijas de la primera, que es el header x lo
+que todas las propiedades que le incluyamos se veran reflejadas soloe en el header*/
